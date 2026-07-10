@@ -48,7 +48,7 @@ h1 {
 h2 {
   margin-bottom: 1rem;
   padding-bottom: 10px;
-  border-bottom: 2px solid #ccc;
+  /*border-bottom: 2px solid #ccc;*/
   color: var(--primary-color);
   font-size: 1.5rem;
 }
@@ -107,13 +107,14 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
+  border-bottom: 2px solid #ccc;
 }
 
 .top-nav a {
   text-decoration: none;
-  color: var(--text-color);
-  font-weight: 500;
+  color: var(--primary-color);
 }
 
 .top-nav a.active {
