@@ -1,0 +1,143 @@
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #3498db;
+  --text-color: #333;
+  --bg-color: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+.container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 20px 0 0;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  margin: 0 2px;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-item {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  border-left: 3px solid var(--accent-color);
+}
+
+.news-date {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #888;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* Top navigation */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.top-nav a {
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #d9e1ea;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.top-nav a:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #fff;
+}
+
+.top-nav a.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+}
+
+a,
+a:visited {
+  color: var(--text-color);
+}
+
+a:hover,
+a:active {
+  color: var(--accent-color);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .container {
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+  }
+}
