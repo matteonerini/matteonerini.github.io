@@ -105,6 +105,10 @@ footer {
   color: var(--primary-color);
 }
 
+.icon-text {
+  white-space: nowrap;
+}
+
 /* Top navigation */
 .top-nav {
   display: flex;
